@@ -5,44 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>snm654 CV RSS</title>
-    <link rel="icon" href="./image/1.png"> 
+    <link rel="icon" href="../assets/img/icon.ico"> 
     <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-   <header>
-   
-        <div   class="header-img"> <img class="header-avatarka" src="./image/2.jpg.png" alt="картинка шапки"></div>
-        <div> 
+   <header class="header">
+        <nav class="nav">
+            <ul class="list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+        </nav>
 
-
-            <section class="contacts">
-                <h2 class="contacts-header">Contacts:</h2>
-                <nav>
-                <ul>
-                    <li class="header-location">Location: Minsk, Belarus</li>
-                    <li class="header-phone"> Phone:  +375 44 722-06-42</li>
-                    <li class="header-telegram"> Telegram: @snm654</li>
-                    <li class="header-discord">Discord: snm654#4847</li>
-                    <li class="header-email"> Email: ruengermany@yandex.by </li>
-                    <li class="header-gihub"> GitHub: <a href="https://github.com/snm654">snm654</a> </li>
-                </ul>
-            </nav>
-            </section>
+        <div class="container"> 
+            <h1>Alexandrov Ilya</h1>
+            <img class="" src="/assets/img/3.jpg" alt="my img">
         </div>
     </header> 
-        <div> <h1>  Alexandrov Ilya  </h1></div>
-        <img class="avatarka" src="./image/3.jpg" alt="Аватарка">
 
-        <main>
-        <div>
-            <h2 class="about-me">About me </h2>
-            <p class="p-about-me">I want to learn programming languages and work in this field!</p>
+
+    <main>
+        <div> 
+            <section class="section" id="contacts">
+                    <h2  class="">Contacts:</h2>
+                    <ul>
+                        <li class="li-item">Location: Minsk, Belarus</li>
+                        <li class="li-item"> Phone:  +375 44 722-06-42</li>
+                        <li class="li-item"> Telegram: @snm654</li>
+                        <li class="li-item">Discord: snm654#4847</li>
+                        <li class="li-item"> Email: ruengermany@yandex.by </li>
+                        <li class="li-item"> GitHub: <a href="https://github.com/snm654">snm654</a> </li>
+                    </ul>
+             </section>
         </div>
 
-        <div class="skills"> 
-            <section>
-                <h2 class="color-change">Skills</h2>
+        <div>
+            <section class="section" id="about-me">
+                <h2  class="">About me </h2>
+                <p class="p-about-me">I want to learn programming languages and work in this field!</p>
+            </section>
+        </div>
+
+        <div class="container"> 
+            <section class="section" id="skills">
+                <h2 class="">Skills</h2>
                 <ul>
                     <li>git</li>
                     <li>html</li>
@@ -52,44 +67,49 @@
             </section>
         </div>
 
-        <div class="code-example">
-            <h2 class="color-change">Code Example</h2></div>
-            <div class="code-div">
-            <code class="code-text"><span class="blue-p">&lt;p&gt</span>Cool?<span class="blue-p">&lt;/p&gt</span></code>
+        <div class="container">
+            <section class="section" id="code-example">
+                <h2 id="nav-code-example" class="">Code Example</h2>  
+                <code class="code-text">&lt;p&gt;Cool?&lt;/p&gt;</code>
+            </section>
         </div>
 
-        <div class="div-experience">
-            <h2 class="color-change"> Experience </h2>
+        <div class="container">
+            <section class="section" id="experience">
+            <h2  class=""> Experience </h2>
                 <ul>
                     <li><a target="_blank" href="https://snm654.github.io/rsschool-cv/cv">CV</a></li>
                 </ul>
-            
+            </section> 
         </div>
-        <div class="div-education">
-            <h2 class="color-change">  Education</h2>
-            <section class="education">
+
+        <div class="container">
+            <section class="section" id="education">
+                <h2 class="">  Education</h2>
                 <ul>
                     <li class="education"><a  target="_blank" href="https://bgam.by/"> Belarusian State Academy of Music</a></li>
                     <li class="education"><a target="_blank" href="https://www.youtube.com/watch?v=W4hoc24K93E&list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb&ab_channel=JavaScript.ru"> Courses on the youtube platform</a></li>
                 </ul>
             </section>
-   
         </div>
+        
         <div>
-            <h2 class="color-change"> English </h2>
+            <section class="section" id="english">
+            <h2  class=""> English </h2>
                 <ul>
                     <li>Intermediate</li>
                 </ul>
+            </section>
         </div>
-</main>
+    </main>
  
-<footer>
+    <footer>
 
 <a target="_blank" href="https://github.com/snm654"><img id="my-github" title="my-GitHub" src="./image/227954-Github-code-logo-open_source-versioning.jpg" alt="githubicon"></a>
 <a target="_blank" href="https://rs.school/"><img id="rsicon" title="rsschool" src="./image/Screenshot_2.png" alt="rsicon"></a>
 <a target="_blank" href="https://vk.com/idsnm654"><img id="my-vk" title="my-vk" src="./image/vk_lite_mod.jpg" alt="vkimage"></a>
-    <h5 class="footer-cr">Ilya Alexandrov 2022</h5>
-</footer>
+    <h5 class="">Ilya Alexandrov 2022</h5>
+    </footer>
 
 
 
