@@ -21,18 +21,17 @@
 
 h1 {
     text-align: center;
-    animation: color-change 5s infinite;
+   color: black;
     position: relative;
+    text-shadow: -2px 2px 5px #FD6969;
 }
 
-.header-img {
-position: relative;
-    }
+
 
 
 .header-avatarka {
     width: 100%;
-    height: 30%;
+    height: 300px;
     padding: 0px;
     margin: 0px;   
   position: relative;
@@ -45,8 +44,8 @@ position: relative;
 border-radius: 60%;
 position: relative;
 top: 20%;
-left: 40%;
-width: 20%;
+left: 42%;
+width: 15%;
 
 
 
@@ -61,44 +60,119 @@ img {
 }
 
 h3 {
-    text-align: center;
+ 
     padding: 0px;
 }
     
 
-
+.color-change {
+    animation: color-change 5s infinite;
+    margin-top: 10%;
+    text-align: center;
+}
 
 
 
 
 .about-me {
-    margin-top: 5%;
+    margin-top: 15%;
 text-align: center;
-position: relative;
+
+animation: color-change 5s infinite;
 }
 
 .p-about-me {
 text-align: center;
-position: relative;
+
+}
+
+.contacts-header {
+    margin: 4%;
+    line-height: 0%;
+    animation: color-change 5s infinite;
 }
 
 .contacts {
 margin: 0%;
+text-align: center;
+line-height: 38px;
+
+
+
 }
 
-.contacts-header {
-}
+
 
 .header-location {
+display: inline;
+border: solid;
+padding: 5px;
+margin-top: 20px;
+border-color: darkred ;
+
+line-height: 20%;
+
 
 }
 .header-phone {
+    display: inline;
+    border: solid;
+padding: 5px;
+
+border-color: darkred ;
 }
 .header-telegram {
+    display: inline;
+    border: solid ;
+padding: 5px;
+
+border-color: darkred ;
 }
 .header-discord {
+    display: inline;
+    border: solid;
+padding: 5px;
+
+border-color: darkred ;
 }
 .header-email {
+    display: inline;
+    border: solid;
+padding: 5px;
+
+border-color: darkred ;
 }
 .header-gihub {
+    display: inline;
+    border: solid;
+padding: 5px;
+margin-left:  3px;
+border-color: darkred ;
+
 }
+
+.code-div {
+    text-align: center;
+
+background-color: antiquewhite;
+width: 35%;
+border-radius: 20%;
+
+}
+
+.code-text {
+    
+    color: #FD6969;
+    font-size: 40px;
+
+}
+
+span.blue-p {
+    color: blue;
+}
+
+footer {
+    background-color: #FD6969;
+}
+
+
