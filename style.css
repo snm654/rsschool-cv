@@ -160,6 +160,24 @@ border-radius: 20%;
 
 }
 
+
+.skills {
+   display: inline; 
+}
+
+.code-example {
+    display: inline; 
+}
+
+.div-experience {
+    display: inline; 
+}
+ 
+.div-education {
+    display: inline; 
+}
+
+
 .code-text {
     
     color: #FD6969;
@@ -172,7 +190,41 @@ span.blue-p {
 }
 
 footer {
-    background-color: #FD6969;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
 }
 
 
+.footer-cr {
+    text-align: center;
+    
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#rsicon {
+margin-top: 5%;
+    width: 11.5%;
+    height: 8%;
+}
+
+#my-github{
+margin-left:  39%;
+width: 6.9%;
+height: 8%;
+margin-top: 5%;
+}
+
+#my-vk {
+    width: 3.9%;
+    height: 3%;
+    margin-top: 5%;
+}
