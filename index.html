@@ -13,16 +13,16 @@
 </head>
 
 <body>
-   <header class="header">
+   <header class="header box-shadow">
         <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-                <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#code-example" class="nav-link">Code Example</a></li>
-                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
-                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                <li class="nav-item"><a title="Перейти к разделу Contacts" href="#contacts" class="nav-link link">Contacts</a></li>
+                <li class="nav-item"><a title="Перейти к разделу About me" href="#about-me" class="nav-link link">About me</a></li>
+                <li class="nav-item"><a title="Перейти к разделу Skills" href="#skills" class="nav-link link">Skills</a></li>
+                <li class="nav-item"><a title="Перейти к разделу Code Example" href="#code-example" class="nav-link link">Code Example</a></li>
+                <li class="nav-item"><a title="Перейти к разделу Experience" href="#experience" class="nav-link link">Experience</a></li>
+                <li class="nav-item"><a title="Перейти к разделу Education" href="#education" class="nav-link link">Education</a></li>
+                <li class="nav-item"><a title="Перейти к разделу English" href="#english" class="nav-link link">English</a></li>
             </ul>
         </nav>
 
@@ -36,46 +36,45 @@
 
 
     <main class="main-container">
-        <section  class="section" >
-            <div id="contacts" class="container div-contacts " id contacts> 
+        <section  class="section" id="contacts">
+            <div  class="container div-contacts " id contacts> 
                     <h2  class="text-shadow">Contacts:</h2>
                     <ul>
-                        <li class="li-item ">Location: Minsk, Belarus</li>
-                        <li class="li-item"> Phone:  +375 44 722-06-42</li>
-                        <li class="li-item"> Telegram: @snm654</li>
-                        <li class="li-item">Discord: snm654#4847</li>
-                        <li class="li-item"> Email: ruengermany@yandex.by </li>
-                        <li class="li-item"> GitHub: <a href="https://github.com/snm654">snm654</a> </li>
+                        <li class="li-item"><span class="text-style">Location:</span> Minsk, Belarus</li>
+                        <li class="li-item"> <span class="text-style">Phone:</span> +375 44 722-06-42</li>
+                        <li class="li-item"> <span class="text-style">Telegram:</span> @snm654</li>
+                        <li class="li-item"> <span class="text-style">Discord:</span> snm654#4847</li>
+                        <li class="li-item"> <span class="text-style">Email: </span> ruengermany@yandex.by </li>
+                        <li class="li-item"> <span class="text-style"> GitHub: </span><a href="https://github.com/snm654">snm654</a> </li>
                     </ul>
              
             </div>
         </section>
 
-        <section class="section">
-            
-            <div id="about-me" class="container div-about-me ">
+        <section class="section" id="about-me">
+            <div  class="container div-about-me">
                 <h2  class="h2-div-about-me text-shadow">About me </h2>
                 <p class="p-about-me">I want to learn programming languages and work in this field!</p>
             </div>
         </section>
         
-        <section id="section-id" class="section">
-            <div id="skills" class="container div-skills"> 
+        <section  id="skills" class="section">
+            <div  class="container div-skills"> 
                 <h2 class="text-shadow">Skills</h2>
-                <ul>
-                    <li>git</li>
-                    <li>html</li>
-                    <li>css</li>
-                    <li>js(basic)</li>
+                <ul class="skills-list">
+                    <li class="li-item text-style li-skills">git</li>
+                    <li class="li-item text-style li-skills">html</li>
+                    <li class="li-item text-style li-skills">css</li>
+                    <li class="li-item text-style li-skills">js(basic)</li>
                 </ul>
   
             </div>
         </section>
 
-        <section class="section">
+        <section class="section " id="code-example">
             <div class="container div-code-example">
-                <h2  id="code-example" class="text-shadow">Code Example</h2>  
-                <code class="code-text">&lt;p&gt;Cool?&lt;/p&gt;</code>
+                <h2   class="text-shadow">Code Example</h2>  
+                <code class="code-text"> <span class="p-code">&lt;p&gt;</span>Cool?<span class="p-code">&lt;/p&gt;</span></code>
             </div>
         </section>
 
@@ -84,7 +83,7 @@
                 <div class="container div-experience">
                     <h2  class="text-shadow"> Experience </h2>
                     <ul>
-                        <li><a target="_blank" href="https://snm654.github.io/rsschool-cv/cv">CV</a></li>
+                        <li class="li-item"><a target="_blank" href="https://snm654.github.io/rsschool-cv/cv">CV</a></li>
                     </ul>
                 </div>
         </section>
@@ -94,8 +93,8 @@
                 <h2 class="for-section text-shadow">Education</h2>
                 
                 <ul>
-                    <li class="education"><a  target="_blank" href="https://bgam.by/"> Belarusian State Academy of Music</a></li>
-                    <li class="education"><a target="_blank" href="https://www.youtube.com/watch?v=W4hoc24K93E&list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb&ab_channel=JavaScript.ru"> Courses on the youtube platform</a></li>
+                    <li class="education li-item"><a  target="_blank" href="https://bgam.by/"> Belarusian State Academy of Music</a></li>
+                    <li class="education li-item"><a target="_blank" href="https://www.youtube.com/watch?v=W4hoc24K93E&list=PLDyvV36pndZFHXjXuwA_NywNrVQO0aQqb&ab_channel=JavaScript.ru"> Courses on the youtube platform</a></li>
                 </ul>
             </div>
         </section>
@@ -103,17 +102,17 @@
 
             
          <section class="section" id="english">
-                    <div class="container" id="english">
+                    <div class="container div-english" id="english">
                         <h2  class="for-section text-shadow"> English </h2>
                         <ul>
-                            <li>Intermediate</li>
+                            <li class="li-item text-style">Intermediate</li>
                         </ul>
            
                     </div>
         </section>
     </main>
  
-    <footer>
+    <footer class="">
 
 <a target="_blank" href="https://github.com/snm654"><img id="my-github" title="my-GitHub" src="../assets/img/227954-Github-code-logo-open_source-versioning.jpg" alt="githubicon"></a>
 <a target="_blank" href="https://rs.school/"><img id="rsschool" title="rsschool" src="../assets/img/Screenshot_2.png" alt="rs-icon"></a>
