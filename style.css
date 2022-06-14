@@ -1,6 +1,5 @@
 html {
     scroll-behavior: smooth;  
-    
   }
 
 body{
@@ -73,13 +72,12 @@ li {
     display: flex;
     flex-wrap: wrap;
     margin: 3% 20% 3% 20%;
-    
 }
 
 #my-img{
     border-radius: 70%;
     width: 200px;
-    padding-top: 5%;
+    padding-top: 2%;
     margin-bottom: 0px;  
 }
 
@@ -122,6 +120,7 @@ li {
 
 h2 {
     text-align: center;
+    color: blue;
 }
 
 .p-about-me{
@@ -186,10 +185,6 @@ footer {
     padding: 0;
 }
 
-.color-change {
-    animation: color-change 5s infinite;
-    }
-
 .text-shadow {
     text-shadow: -2px 2px 5px #1df700; 
 }
@@ -210,8 +205,6 @@ footer {
     text-shadow: -2px 5px 10px #006bf7; 
 }
 
-    
-    
 @media (max-width: 768px) {
     .section {
     width: 100%;
