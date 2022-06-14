@@ -207,10 +207,25 @@ footer {
 
 @media (max-width: 768px) {
     .section {
-    width: 100%;
+        width: 100%;
    }
 }
 
 
+@media (max-width: 768px) {
+    .nav-item{
+        font-size: 12px;
+    }
+}
 
-   
+@media (max-width: 460px) {
+    .nav-item{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 329px) {
+    .nav-item{
+        font-size: 5px;
+    }
+}
