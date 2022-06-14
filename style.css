@@ -14,39 +14,202 @@ body{
 
 * {
     box-sizing: border-box;
+    
   }
 
-.header {
- 
+header {
+    background-image: url(../assets/img/YxbeKWLkwYY.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 
 
 .nav {
+
 }
 
 .nav-list {
     list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
     display: flex;
+    position: fixed;
+    width: 100%;
+
+    
+    
 }
 
 .nav-item {
 
+    font-size: 16px;
+
+  
+    
 }
-.nav-link {
-    margin: 20px;
-    line-height: 50px;
+
+.nav-link:hover {
+    background-color: #09eb27;
+    line-height: 0px;
+    animation: color-change 5s infinite;
 
 }
 
+.container-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
 
 .container {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0;
+    display: inline-block;
+    border:solid #09eb27;
+    width: 20%;
+    height: 20%;
 }
 
+#my-img{
+    border-radius: 70%;
+    width: 200px;
+    padding-top: 5%;
+    margin-bottom: 0px;
+
+    
+}
+
+.h1-header{
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 2%;
+    animation: color-change 5s infinite;
+
+    
+}
+
+
+
+#section-id{
+    text-align: center; 
+
+
+    
+}
+
+.div-contacts {
+    padding: 0px 0px 0px 40px;
+    margin: 5% ;
+
+
+
+}
+
+.div-about-me {
+    padding-top: 6% ;
+    margin-bottom: 5%; 
+
+
+
+}
+
+.div-skills{
+
+}
+
+.div-code-example{
+
+}
+
+
+.div-experience{
+
+}
+
+.div-education{
+
+}
+
+div.english{
+    
+}
+
+.h2-div-about-me{
+
+
+
+}
+
+.p-about-me{
+
+
+}
 
 
 .section {
 
 }
+
+
+footer {
+    background-color: #eb4909;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#my-github {
+    width: 45px ;
+    height: 30px ;
+
+
+    
+
+}
+
+#rsschool {
+    width: 60px;
+    height: 30px;
+}
+
+#my-vk {
+    width: 30px;
+    height: 30px;
+}
+
+.h5-footer {
+text-align: center;
+}
+
+.color-change {
+    animation: color-change 5s infinite;
+ 
+    }
+
+.text-shadow {
+    text-shadow: -2px 2px 5px #1df700; 
+}
+
+.box-shadow {
+    box-shadow: -2px 2px 5px #1df700; 
+}
+
+@keyframes color-change {
+    0% {
+    color: black;
+    }
+    
+    50% {
+    color: rgba(34, 233, 16, 0.253);
+    }
+    
+    100% {
+    color: black;
+    }
+    }
+    
+    
